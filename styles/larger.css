@@ -1,0 +1,27 @@
+@media (min-width: 700px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about-text {
+        width: 60%;
+    }
+
+    .about-photo {
+        width: 40%;
+    }
+
+    #courseContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
