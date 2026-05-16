@@ -19,8 +19,13 @@ nav a {
     font-weight: 600;
 }
 
-nav a.active {
-    text-decoration: underline;
+nav a.active,
+.directory-controls button.active {
+    background-color: var(--accent);
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-weight: 600;
 }
 
 .directory-controls {
@@ -28,6 +33,30 @@ nav a.active {
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+}
+
+#directory {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+section {
+    padding: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+section h3,
+section p {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 button {
