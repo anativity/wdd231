@@ -1,0 +1,88 @@
+header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.directory-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background: var(--secondary);
+}
+
+#directory {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid {
+    grid-template-columns: 1fr;
+}
+
+.list {
+    display: block;
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.card h2 {
+    color: var(--primary);
+}
+
+.list .card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+.list .card img {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-soft);
+    font-size: 0.9rem;
+}

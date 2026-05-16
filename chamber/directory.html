@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Crystal River Chamber Directory | Amanda Adams</title>
+
+    <meta name="description"
+        content="Explore the Crystal River Chamber of Commerce business directory, featuring local shops, services, and community businesses curated by Amanda Adams for the WDD231 project.">
+    <meta name="author" content="Amanda Adams">
+
+    <meta property="og:title"
+        content="Crystal River Chamber Directory">
+    <meta property="og:description"
+        content="Discover local Crystal River businesses in this interactive Chamber of Commerce directory.">
+    <meta property="og:url"
+        content="https://anativity.github.io/wdd231/directory.html">
+    <meta property="og:image"
+        content="https://anativity.github.io/wdd231/images/home-icon.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name"
+        content="Crystal River Chamber Directory">
+
+    <meta name="theme-color" content="#0a3d62">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/directory.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Crystal River Chamber Directory</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html"
+                        class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="directory-controls">
+            <button id="viewGrid">Grid</button>
+            <button id="viewList">List</button>
+        </section>
+
+        <section id="directory" class="grid"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Crystal River Chamber of
+            Commerce</p>
+        <p>WDD231 Project by Amanda Adams</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

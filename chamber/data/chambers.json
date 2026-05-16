@@ -1,0 +1,60 @@
+{
+  "businesses": [
+    {
+      "name": "Salty Girls Boutique",
+      "address": "638 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-3010",
+      "website": "https://saltygirlsboutique.com",
+      "membership": "Gold",
+      "image": "images/saltygirls.png"
+    },
+    {
+      "name": "The Crystal Shop",
+      "address": "28 NE 5th St, Crystal River, FL 34428",
+      "phone": "352-555-4422",
+      "website": "https://thecrystalshopfl.com",
+      "membership": "Silver",
+      "image": "images/crystalshop.png"
+    },
+    {
+      "name": "BubbaQue’s BBQ",
+      "address": "631 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-9090",
+      "website": "https://bubbaquesbbq.com",
+      "membership": "Bronze",
+      "image": "images/bubbaques.png"
+    }
+    {
+      "name": "MezMerEyes Optical",
+      "address": "600 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-1122",
+      "website": "https://mezmerizecr.com",
+      "membership": "Gold",
+      "image": "images/mezmereyes.png"
+    },
+    {
+      "name": "Franklin Anderson Gallery of Arts",
+      "address": "659 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-3344",
+      "website": "https://franklinandersongallery.com",
+      "membership": "Silver",
+      "image": "images/franklinanderson.png"
+    },
+    {
+      "name": "Heritage House Gifts",
+      "address": "657 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-2044",
+      "website": "https://heritagehousecr.com",
+      "membership": "Bronze",
+      "image": "images/heritagehouse.png"
+    },
+    {
+      "name": "Coastal Art Gallery",
+      "address": "620 N Citrus Ave, Crystal River, FL 34428",
+      "phone": "352-555-7789",
+      "website": "https://coastalartcr.com",
+      "membership": "Silver",
+      "image": "images/coastalart.png"
+    }
+  ]
+}
