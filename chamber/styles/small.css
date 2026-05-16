@@ -43,6 +43,10 @@ main h1 {
     padding: 1rem;
 }
 
+.directory-controls button.active:hover {
+    color: var(--text);
+}
+
 button {
     padding: 0.5rem 1rem;
     background: var(--primary);
