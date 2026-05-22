@@ -13,7 +13,7 @@ header {
     height: 150px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 0.5rem;
+    margin: 0;
 }
 
 #hamburger {
@@ -58,6 +58,10 @@ nav a.active,
     padding: 0.5rem 1rem;
     border-radius: 12px;
     font-weight: 600;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    color: var(--text);
 }
 
 main h1 {
@@ -113,11 +117,12 @@ button:hover {
 }
 
 .card {
-    background: white;
+    background: var(--light);
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid var(--border);
     text-align: center;
+    color: var(--text);
 }
 
 .card h2 {
@@ -155,8 +160,9 @@ section img {
 }
 
 footer {
+    background: var(--primary);
     text-align: center;
     padding: 2rem 1rem;
-    color: var(--text-soft);
+    color: white;
     font-size: 0.9rem;
 }
