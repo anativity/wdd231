@@ -51,4 +51,8 @@
     .list .card img {
         width: 140px;
     }
+
+    footer {
+        color: var(--light);
+    }
 }

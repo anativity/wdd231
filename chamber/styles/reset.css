@@ -29,4 +29,5 @@ body {
 
 footer {
     background: var(--primary);
+    color: var(--light);
 }
