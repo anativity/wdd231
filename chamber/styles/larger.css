@@ -1,6 +1,32 @@
 @media (min-width: 700px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding: 1rem 2rem;
+    }
+
+    .header-icon {
+        margin: 0;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        background: none;
+        padding: 0;
+    }
+
     .grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 2rem;
+        gap: 2rem;
     }
 
     nav ul {
@@ -14,6 +40,8 @@
 
     #directory {
         padding: 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
     }
 
     .card {

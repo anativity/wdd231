@@ -3,7 +3,7 @@ const viewGrid = document.querySelector("#viewGrid");
 const viewList = document.querySelector("#viewList");
 
 async function loadDirectory() {
-    const response = await fetch("data/chambers.json");
+    const response = await fetch("data/members.json");
     const data = await response.json();
     displayBusinesses(data.businesses);
 }
@@ -28,14 +28,22 @@ function displayBusinesses(businesses) {
     });
 }
 
-viewGrid.addEventListener("click", () => {
-    directory.classList.add("grid");
-    directory.classList.remove("list");
-});
-
 viewList.addEventListener("click", () => {
     directory.classList.add("list");
     directory.classList.remove("grid");
+
+    document.querySelectorAll("#directory img").forEach(img => {
+        img.style.display = "none";
+    });
+});
+
+viewGrid.addEventListener("click", () => {
+    directory.classList.add("grid");
+    directory.classList.remove("list");
+
+    document.querySelectorAll("#directory img").forEach(img => {
+        img.style.display = "block";
+    });
 });
 
 loadDirectory();
