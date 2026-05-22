@@ -31,11 +31,6 @@ nav {
     padding: 1rem;
 }
 
-nav a {
-    padding: 0.5rem 0;
-    display: block;
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -46,6 +41,8 @@ nav ul {
 }
 
 nav a {
+    padding: 0.5rem 0;
+    display: block;
     color: white;
     text-decoration: none;
     font-weight: 600;
