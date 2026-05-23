@@ -1,3 +1,13 @@
+:root {
+    --primary: #0a3d62;
+    --secondary: #3c6382;
+    --accent: #82ccdd;
+    --light: #f5f7fa;
+    --text: #222;
+    --text-soft: #555;
+    --border: #ddd;
+}
+
 @media (min-width: 700px) {
     header {
         display: flex;
