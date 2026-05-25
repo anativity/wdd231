@@ -55,23 +55,21 @@
     footer {
         color: var(--light);
     }
-}
 
-@media (min-width: 700px) {
-  .home-grid {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
-  .hero img {
-    height: 400px;
-    object-fit: cover;
-  }
+    .hero img {
+        height: 400px;
+        object-fit: cover;
+    }
 
-  .join-btn {
-    bottom: 2rem;
-    right: 2rem;
-    font-size: 1rem;
-  }
+    .join-btn {
+        bottom: 2rem;
+        right: 2rem;
+        font-size: 1rem;
+    }
 }
