@@ -159,3 +159,65 @@ footer {
     color: var(--light);
     font-size: 0.9rem;
 }
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+/* JOIN BUTTON OVERLAY */
+.join-btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background: var(--accent);
+    color: var(--text);
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn:hover {
+    background: var(--secondary);
+    color: var(--light);
+}
+
+/* HOME GRID LAYOUT */
+.home-grid {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    background: var(--light);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    text-align: center;
+}
+
+.box h2 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.box .membership.gold {
+    background: #ffd700;
+    border-radius: 6px;
+}
+
+.box .membership.silver {
+    background: #c4c4c4;
+    border-radius: 6px;
+}

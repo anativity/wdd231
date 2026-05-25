@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Crystal River Chamber Home Page</title>
+
+    <!-- to fix
+     <meta name="description"
+        content="Explore the Crystal River Chamber of Commerce business directory, featuring local businesses for the WDD231 project.">
+    <meta name="author" content="Amanda Adams">
+
+    <meta property="og:title" content="Crystal River Chamber Directory">
+    <meta property="og:description"
+        content="Discover local Crystal River businesses in this interactive Chamber of Commerce Home Page.">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Crystal River Chamber Directory">
+
+    <meta name="theme-color" content="#0a3d62">
+-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/body.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/home-icon.png" alt="Chamber Logo"
+            class="header-icon">
+        <button id="hamburger" aria-label="Menu">🌊</button>
+        <nav id="menu">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Crystal River Chamber Home Page</h1>
+        <section class="hero">
+            <img src="images/hero-large.png"
+                alt="Crystal River Main Page Hero Image">
+            <a href="join.html" class="join-btn">Join</a>
+        </section>
+
+        <section class="home-grid">
+            <section class="box">
+                <h2>Events</h2>
+                <p>Manatee Festival</p>
+                <p>City Meetings</p>
+                <p>Small Business Clinics</p>
+            </section>
+
+            <section class="box">
+                <h2>Weather</h2>
+                <h3>Current Weather</h3>
+                <p><span id="temp"></span>°F</p>
+                <p id="description"></p>
+                <h3>Weather Forecast</h3>
+                <p id="forecast"></p>
+            </section>
+
+            <section class="box">
+                <h2>Spotlights</h2>
+                <div id="spotlights"></div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Crystal River Chamber</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
