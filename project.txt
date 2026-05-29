@@ -1,0 +1,19 @@
+Project Topic: ANA Violin Studios — Expanded Listening Library
+
+For this project, I am building on the violin studio website I created in WDD131. 
+My original site includes a general “Listen & Explore” page with three embedded YouTube videos to introduce students to violin music. 
+For WDD231, I will expand this concept by creating three new pages that allow users to explore violin repertoire in more depth.
+
+General Site Content:
+The new pages will each use the (YouTube) Playlist API and will focus on different categories of violin music:
+1. Chamber Works – A curated playlist featuring violin chamber music such as duos, trios, quartets, and other small ensemble pieces.
+2. Solo Works – A playlist highlighting both accompanied and unaccompanied solo violin repertoire, including works by Bach, Paganini, and other major composers.
+3. Symphonic Works – A playlist showcasing violin solos and concertos within orchestral settings.
+
+These three pages will branch off from the original “Listen & Explore” page, which will remain as the general introduction. 
+The new pages will serve as a deeper, more structured listening experience for students.
+
+Reason for Choosing This Subject:
+I chose this subject because listening is one of the most important parts of learning the violin. 
+Expanding my original site into a more detailed listening library allows me to create something meaningful and educational for beginners.
+Also, I will demonstrate my ability to integrate APIs and build interactive pages for this course.

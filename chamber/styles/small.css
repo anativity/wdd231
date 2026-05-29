@@ -106,7 +106,7 @@ button:hover {
 }
 
 #menu {
-    display: block;
+    display: none;
 }
 
 .card {
@@ -160,7 +160,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* HERO SECTION */
 .hero {
     position: relative;
     margin: 0 auto;
@@ -174,7 +173,6 @@ footer {
     border-radius: 6px;
 }
 
-/* JOIN BUTTON OVERLAY */
 .join-btn {
     position: absolute;
     bottom: 1rem;
@@ -193,7 +191,6 @@ footer {
     color: var(--light);
 }
 
-/* HOME GRID LAYOUT */
 .home-grid {
     display: grid;
     gap: 1rem;
@@ -220,4 +217,61 @@ footer {
 .box .membership.silver {
     background: #c4c4c4;
     border-radius: 6px;
+}
+
+.join {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.join-form,
+.join-info {
+    background: var(--light);
+    border: 1px solid var(--border);
+    padding: 1rem;
+}
+
+.join-form form {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.join-form label {
+    display: grid;
+    gap: 0.25rem;
+    font-weight: 600;
+}
+
+.join-form input,
+.join-form textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.join-form fieldset {
+    border: 1px solid var(--border);
+    padding: 0.75rem;
+    border-radius: 6px;
+}
+
+.join-form legend {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.join-form button {
+    background: var(--primary);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.join-form button:hover {
+    background: var(--secondary);
 }

@@ -5,27 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
 
-    <title>Crystal River Chamber Directory | Amanda Adams</title>
-
-    <meta name="description"
+    <!-- <meta name="description"
         content="Explore the Crystal River Chamber of Commerce business directory, featuring local businesses for the WDD231 project.">
     <meta name="author" content="Amanda Adams">
 
-    <meta property="og:title"
-        content="Crystal River Chamber Directory">
+    <meta property="og:title" content="Crystal River Chamber Home Page">
     <meta property="og:description"
-        content="Discover local Crystal River businesses in this interactive Chamber of Commerce directory.">
-    <meta property="og:url"
-        content="https://anativity.github.io/wdd231/chamber/directory.html">
-    <meta property="og:image"
-        content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
+        content="Discover local Crystal River businesses in this interactive Chamber of Commerce Home Page.">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/inde.html">
+    <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name"
-        content="Crystal River Chamber Directory">
+    <meta property="og:site_name" content="Crystal River Chamber Home Page">
 
-    <meta name="theme-color" content="#0a3d62">
-
+    <meta name="theme-color" content="#0a3d62"> -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com"
         crossorigin>
@@ -38,11 +33,11 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <script src="scripts/directory.js" defer></script>
-    <script src="scripts/body.js" defer></script>
+
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
     <script src="scripts/home.js" defer></script>
 
-    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -62,23 +57,16 @@
     </header>
 
 
-    <main id="Main">
-        <h1>Crystal River Chamber Directory</h1>
-
-        <section class="directory-controls">
-            <button id="viewGrid">Grid</button>
-            <button id="viewList">List</button>
+    <main class="join">
+        <section class="join-form">
+            <h1>Thank You</h1>
+            <p>Your application has been submitted.</p>
+            <p>We will review your membership request and contact you
+                soon.</p>
         </section>
-
-        <section id="directory" class="grid"></section>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> Crystal River Chamber of
-            Commerce</p>
-        <p>WDD231 Project by Amanda Adams</p>
+        <p>&copy; <span id="year"></span> Crystal River Chamber</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
-
-</body>
-
-</html>
