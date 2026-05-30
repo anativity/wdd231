@@ -10,8 +10,9 @@
         content="Explore the Crystal River Chamber of Commerce business directory, featuring local businesses for the WDD231 project.">
     <meta name="author" content="Amanda Adams">
 
-    <meta property="og:title" content="Crystal River Chamber Join Page">
-    <meta property="og:description" content="Join the Crystal River Chamber of Commerce.">
+    <meta property="og:title" content="Join the Crystal River Chamber of Commerce Membership Program">
+    <meta property="og:description"
+        content="Become a member of the Crystal River Chamber of Commerce and gain access to resources, networking opportunities, and community support.">
     <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/join.html">
     <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
     <meta property="og:type" content="website">
@@ -31,6 +32,8 @@
 
     <script src="scripts/body.js" defer></script>
     <script src="scripts/home.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
 
 </head>
 
@@ -77,14 +80,15 @@
 
                 <label>
                     Phone
-                    <input type="tel" name="phone" required autocomplete="tel-national" pattern="[\d\-\s\(\)]{7,20}"
+                    <input type="tel" name="phone" required autocomplete="tel" pattern="[\d\-\s\(\)]{7,20}"
                         title="Enter a valid phone number">
+
                 </label>
 
                 <label>
                     Organization
-                    <input type="text" name="organization" required autocomplete="organization"
-                        title="Enter your organization name">
+                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}"
+                        title="Use at least 7 letters, spaces, or hyphens">
                 </label>
 
                 <label>

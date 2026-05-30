@@ -339,6 +339,7 @@ footer {
     font-size: 1.5rem;
     float: right;
     cursor: pointer;
+    color: #333;
 }
 
 .submitted-info {
