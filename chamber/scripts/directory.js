@@ -21,7 +21,7 @@ function displayBusinesses(businesses) {
       <p>${biz.address}</p>
       <p>${biz.phone}</p>
       <a href="${biz.website}" target="_blank">Visit Website</a>
-      <p class="membership">${biz.membership} Member</p>
+      <p class="membership ${biz.membership.toLowerCase()}">${biz.membership} Member</p>
     `;
 
         directory.appendChild(card);

@@ -15,6 +15,10 @@
         display: none;
     }
 
+    #menu {
+        display: flex;
+    }
+
     nav {
         display: flex;
         flex-direction: row;

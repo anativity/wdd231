@@ -3,30 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal River Chamber Join Form</title>
 
-    <!-- <meta name="description"
+    <meta name="description"
         content="Explore the Crystal River Chamber of Commerce business directory, featuring local businesses for the WDD231 project.">
     <meta name="author" content="Amanda Adams">
 
-    <meta property="og:title" content="Crystal River Chamber Home Page">
-    <meta property="og:description"
-        content="Discover local Crystal River businesses in this interactive Chamber of Commerce Home Page.">
-    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/inde.html">
+    <meta property="og:title" content="Crystal River Chamber Join Page">
+    <meta property="og:description" content="Join the Crystal River Chamber of Commerce.">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/join.html">
     <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Crystal River Chamber Home Page">
+    <meta property="og:site_name" content="Crystal River Chamber Join Page">
 
-    <meta name="theme-color" content="#0a3d62"> -->
+    <meta name="theme-color" content="#0a3d62">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"
-        crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/variables.css">
@@ -35,18 +30,14 @@
 
 
     <script src="scripts/body.js" defer></script>
-    <script src="scripts/dates.js" defer></script>
-    <script src="scripts/form.js" defer></script>
     <script src="scripts/home.js" defer></script>
 
 </head>
 
 <body>
     <header>
-        <img src="images/home-icon.png" alt="Chamber Logo"
-            class="header-icon">
-        <button id="hamburger" aria-label="Menu"
-            class="wave-emoji">🌊</button>
+        <img src="images/home-icon.png" alt="Chamber Logo" class="header-icon">
+        <button id="hamburger" aria-label="Menu" class="wave-emoji">🌊</button>
         <nav id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -61,30 +52,52 @@
         <section class="join-form">
             <h1>Join the Chamber</h1>
             <form method="get" action="thankyou.html" id="joinForm">
-                <label>First Name<input type="text" name="firstName"
-                        required autocomplete="given-name"></label>
-                <label>Last Name<input type="text" name="lastName"
-                        required autocomplete="family-name" ></label>
-                <label>Title<input type="text" name="title" autocomplete="organization-title"></label>
-                <label>Email<input type="email" name="email"
-                        required></label>
-                <label>Phone<input type="tel" name="phone"
-                        required></label>
-                <label>Organization<input type="text"
-                        name="organization" required></label>
-                <label>Business Description<textarea
-                        name="description"
-                        rows="5"></textarea></label>
+                <label>
+                    First Name
+                    <input type="text" name="firstName" required autocomplete="given-name"
+                        title="Enter your first name">
+                </label>
+
+                <label>
+                    Last Name
+                    <input type="text" name="lastName" required autocomplete="family-name" title="Enter your last name">
+                </label>
+
+                <label>
+                    Title
+                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{2,50}"
+                        title="Enter your organization title (letters and hyphens only)">
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" required autocomplete="email" placeholder="name@example.com"
+                        title="Enter a valid email address">
+                </label>
+
+                <label>
+                    Phone
+                    <input type="tel" name="phone" required autocomplete="tel-national" pattern="[\d\-\s\(\)]{7,20}"
+                        title="Enter a valid phone number">
+                </label>
+
+                <label>
+                    Organization
+                    <input type="text" name="organization" required autocomplete="organization"
+                        title="Enter your organization name">
+                </label>
+
+                <label>
+                    Business Description
+                    <textarea name="description" rows="5" title="Describe your business"></textarea>
+                </label>
+
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership"
-                            value="np" required>Non-Profit</label>
-                    <label><input type="radio" name="membership"
-                            value="bronze">Bronze</label>
-                    <label><input type="radio" name="membership"
-                            value="silver">Silver</label>
-                    <label><input type="radio" name="membership"
-                            value="gold">Gold</label>
+                    <label><input type="radio" name="membership" value="np" required>Non-Profit</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze</label>
+                    <label><input type="radio" name="membership" value="silver">Silver</label>
+                    <label><input type="radio" name="membership" value="gold">Gold</label>
                 </fieldset>
                 <input type="hidden" id="timestamp" name="timestamp">
                 <button type="submit">Submit</button>
@@ -93,17 +106,87 @@
 
         <section class="join-info">
             <h2>Membership Levels</h2>
-            <p>Non-Profit: Non‑profit benefits</p>
-            <p>Bronze: Basic business benefits</p>
-            <p>Silver: Enhanced visibility</p>
-            <p>Gold: Premium placement</p>
+
+            <article class="membership-card" data-level="np">
+                <h3>Non-Profit</h3>
+                <p>Non-profit benefits</p>
+                <button data-modal="modal-np">View Benefits</button>
+            </article>
+
+            <article class="membership-card" data-level="bronze">
+                <h3>Bronze</h3>
+                <p>Basic business benefits</p>
+                <button data-modal="modal-bronze">View Benefits</button>
+            </article>
+
+            <article class="membership-card" data-level="silver">
+                <h3>Silver</h3>
+                <p>Enhanced visibility</p>
+                <button data-modal="modal-silver">View Benefits</button>
+            </article>
+
+            <article class="membership-card" data-level="gold">
+                <h3>Gold</h3>
+                <p>Premium placement</p>
+                <button data-modal="modal-gold">View Benefits</button>
+            </article>
         </section>
-    </main>$
+
+    </main>
 
     <footer>
         <p>&copy; <span id="year"></span> Crystal River Chamber</p>
         <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
+
+    <div class="modal" id="modal-np" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close" aria-label="Close">&times;</button>
+            <h2>Non-Profit Benefits</h2>
+            <ul>
+                <li>Discounted membership</li>
+                <li>Community events</li>
+                <li>Networking opportunities</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-bronze" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close" aria-label="Close">&times;</button>
+            <h2>Bronze Benefits</h2>
+            <ul>
+                <li>Directory listing</li>
+                <li>Basic advertising</li>
+                <li>Event invitations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-silver" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close" aria-label="Close">&times;</button>
+            <h2>Silver Benefits</h2>
+            <ul>
+                <li>Homepage spotlight rotation</li>
+                <li>Training sessions</li>
+                <li>Event discounts</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-gold" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close" aria-label="Close">&times;</button>
+            <h2>Gold Benefits</h2>
+            <ul>
+                <li>Premium homepage spotlight</li>
+                <li>Priority advertising</li>
+                <li>Exclusive events</li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 
 </html>

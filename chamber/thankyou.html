@@ -3,30 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You</title>
 
-    <!-- <meta name="description"
+    <meta name="description"
         content="Explore the Crystal River Chamber of Commerce business directory, featuring local businesses for the WDD231 project.">
     <meta name="author" content="Amanda Adams">
 
-    <meta property="og:title" content="Crystal River Chamber Home Page">
-    <meta property="og:description"
-        content="Discover local Crystal River businesses in this interactive Chamber of Commerce Home Page.">
-    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/inde.html">
+    <meta property="og:title" content="Crystal River Chamber Thank you">
+    <meta property="og:description" content="Thank you for Joining the Crystal River Chamber of Commerce.">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/thankyou.html">
     <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Crystal River Chamber Home Page">
+    <meta property="og:site_name" content="Crystal River Chamber Thank you">
 
-    <meta name="theme-color" content="#0a3d62"> -->
-    
+    <meta name="theme-color" content="#0a3d62">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"
-        crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/reset.css">
@@ -34,18 +29,15 @@
     <link rel="stylesheet" href="styles/larger.css">
 
 
-    <script src="scripts/nav.js" defer></script>
-    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/body.js" defer></script>
     <script src="scripts/home.js" defer></script>
 
 </head>
 
 <body>
     <header>
-        <img src="images/home-icon.png" alt="Chamber Logo"
-            class="header-icon">
-        <button id="hamburger" aria-label="Menu"
-            class="wave-emoji">🌊</button>
+        <img src="images/home-icon.png" alt="Chamber Logo" class="header-icon">
+        <button id="hamburger" aria-label="Menu" class="wave-emoji">🌊</button>
         <nav id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -56,13 +48,20 @@
         </nav>
     </header>
 
-
     <main class="join">
         <section class="join-form">
             <h1>Thank You</h1>
             <p>Your application has been submitted.</p>
-            <p>We will review your membership request and contact you
-                soon.</p>
+
+            <h2>Submitted Information</h2>
+            <ul class="submitted-info">
+                <li><strong>First Name:</strong> <span id="firstName"></span></li>
+                <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+                <li><strong>Email:</strong> <span id="email"></span></li>
+                <li><strong>Mobile Phone:</strong> <span id="phone"></span></li>
+                <li><strong>Organization:</strong> <span id="organization"></span></li>
+                <li><strong>Submitted At:</strong> <span id="timestamp"></span></li>
+            </ul>
         </section>
     </main>
 
@@ -70,3 +69,7 @@
         <p>&copy; <span id="year"></span> Crystal River Chamber</p>
         <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
+
+</body>
+
+</html>

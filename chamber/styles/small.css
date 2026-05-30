@@ -109,6 +109,10 @@ button:hover {
     display: none;
 }
 
+#menu.open {
+    display: block;
+}
+
 .card {
     background: var(--light);
     padding: 1rem;
@@ -275,3 +279,111 @@ footer {
 .join-form button:hover {
     background: var(--secondary);
 }
+
+.membership-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background: var(--light-bg, #f5f5f5);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    opacity: 0;
+    transform: translateY(10px);
+    animation: card-in 0.6s ease-out forwards;
+}
+
+.membership-card:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+
+.membership-card:nth-of-type(3) {
+    animation-delay: 0.2s;
+}
+
+.membership-card:nth-of-type(4) {
+    animation-delay: 0.3s;
+}
+
+@keyframes card-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    padding: 1.5rem;
+    max-width: 400px;
+    width: 90%;
+    border-radius: 0.5rem;
+}
+
+.modal .close {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+}
+
+.submitted-info {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.submitted-info li {
+    margin-bottom: 0.5rem;
+}
+
+#forecast {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#forecast li {
+    margin-bottom: 0.25rem;
+}
+
+.membership {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.membership.gold {
+    background: #ffd700;
+}
+
+.membership.silver {
+    background: #c4c4c4;
+}
+
+.membership.bronze {
+    background: #f5933187;
+}
+
+.membership.non-profit {
+    background: #4caf50;
+}
+
