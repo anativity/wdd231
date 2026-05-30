@@ -67,10 +67,11 @@
                 </label>
 
                 <label>
-                    Title
-                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{2,50}"
-                        title="Enter your organization title (letters and hyphens only)">
+                    Organization Title
+                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}"
+                        title="Use at least 7 letters, spaces, or hyphens">
                 </label>
+
 
                 <label>
                     Email
@@ -86,9 +87,9 @@
                 </label>
 
                 <label>
-                    Organization
-                    <input type="text" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}"
-                        title="Use at least 7 letters, spaces, or hyphens">
+                    Organization Name
+                    <input type="text" name="organization" required autocomplete="organization"
+                        title="Enter your organization name">
                 </label>
 
                 <label>
