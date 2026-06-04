@@ -1,0 +1,36 @@
+@media (min-width: 700px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-l);
+    position: static;
+    padding: 0;
+  }
+
+  .logo {
+    max-width: 220px;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  header {
+    padding: var(--space-l);
+  }
+
+  .hero-box {
+    width: 50%;
+    max-width: 500px;
+    padding: var(--space-l);
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  section {
+    padding: var(--space-l) 0;
+  }
+}

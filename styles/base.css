@@ -1,0 +1,211 @@
+:root {
+  --primary: #4b2e83;
+  --secondary: #6a4c93;
+  --light-bg: #f8f1f7;
+  --soft-blue: #c7d0e6;
+  --base-bg: #f3f7f9;
+  --accent: #f582ae;
+  --text: #001858;
+  --soft-text: #172c66;
+
+  --space-s: 0.75rem;
+  --space-m: 1.25rem;
+  --space-l: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--base-bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-m);
+  background: white;
+  border-bottom: 1px solid #ddd;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 1.8rem;
+  color: var(--primary);
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  flex-shrink: 1;
+}
+
+#menu-button {
+  width: 32px;
+  height: 32px;
+  background: url("../images/menu.svg") no-repeat center;
+  background-size: 24px;
+  border: none;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  gap: var(--space-s);
+  background: white;
+  padding: var(--space-m);
+}
+
+nav.show {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  white-space: normal;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--soft-blue);
+  color: var(--primary);
+}
+
+.hero {
+  position: relative;
+  margin-top: 100px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.7);
+  padding: var(--space-l);
+  text-align: center;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.hero-box h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: var(--space-s);
+}
+
+.intro,
+section {
+  padding: var(--space-l) var(--space-m);
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-s);
+  color: var(--secondary);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 var(--space-m);
+}
+
+form input,
+form textarea {
+  width: 100%;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  padding: var(--space-s);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.practice-entry {
+  background: white;
+  padding: var(--space-m);
+  margin-bottom: var(--space-m);
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+#weekly-total {
+  font-weight: 600;
+  margin-top: var(--space-m);
+}
+
+footer {
+  text-align: center;
+  padding: var(--space-m);
+  margin-top: var(--space-l);
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 350px;
+  }
+  
+  .hero-box {
+    top: 30%;
+    padding: var(--space-m);
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+
+  body {
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+  }
+}
