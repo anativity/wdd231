@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal River Chamber Discover Page</title>
+
+    <meta name="description"
+        content="Explore the Crystal River area and discover more about local business - developed for the WDD231 project.">
+    <meta name="author" content="Amanda Adams">
+
+    <meta property="og:title" content="Crystal River Chamber Discover Page">
+    <meta property="og:description"
+        content="Discover local Crystal River businesses in this interactive Chamber of Commerce Discover Page.">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/chamber/discover.html">
+    <meta property="og:image" content="https://anativity.github.io/wdd231/chamber/images/home-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Crystal River Chamber Discover Page">
+
+    <meta name="theme-color" content="#0a3d62">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/body.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
+
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/home-icon.png" alt="Chamber Logo" class="header-icon">
+        <button id="hamburger" aria-label="Menu" class="wave-emoji">🌊</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Discover Crystal River</h1>
+
+        <section id="visit-message" class="visit-message"></section>
+
+        <section id="discover-cards" class="discover-grid"></section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Crystal River Chamber | Amanda Adams</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
