@@ -100,7 +100,7 @@ nav a:hover {
 
 nav a.active {
     font-weight: 700;
-    border-bottom: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent);
 }
 
 .hero {
@@ -213,7 +213,7 @@ footer {
 }
 
 .about-content {
-    grid-template-columns: 300px 1fr;
+    display: grid;
     gap: 1.5rem;
     align-items: start;
 }
