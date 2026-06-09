@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn about violin lesson structure, expectations, and track your practice at ANA Violin Studio.">
+    <meta name="author" content="Amanda Adams">
+    <title>Lesson Information | ANA Violin Studio</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
+        rel="stylesheet">
+        
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="images/hero.svg" alt="ANA Violin Studio Logo" class="logo">
+        </h1>
+        <button id="menu-button" aria-label="Menu"></button>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="listening-library.html">Listening Library</a>
+            <a href="lessons.html" class="active">Lessons</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <h2 class="page-title">Lesson Information</h2>
+            <p>Lessons are tailored to each student’s goals, age, and
+                experience level.</p>
+        </section>
+
+        <section>
+            <h3>What to Expect</h3>
+            <p>Students receive guided instruction in technique,
+                musicality, note reading, and practice habits. Lessons
+                include warm‑ups, skill‑building, and repertoire.</p>
+            <img src="images/lessons-1.jpg" alt="Violin lesson in progress" loading="lazy">
+        </section>
+
+        <section>
+            <h3>Lesson Options</h3>
+            <ul>
+                <li>30‑minute weekly lessons</li>
+                <li>45‑minute weekly lessons</li>
+                <li>60‑minute weekly lessons</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Practice Expectations</h3>
+            <p>Consistent practice is essential for progress. Use the
+                practice journal below to track your daily work and
+                weekly totals.</p>
+        </section>
+
+        <section>
+            <h3>Practice Journal</h3>
+
+            <form id="practice-form">
+                <label for="minutes">Minutes Practiced</label>
+                <input id="minutes" name="minutes" type="number" required>
+
+                <label for="focus">What Did You Work On?</label>
+                <input id="focus" name="focus" required>
+
+                <label for="notes">Notes (optional)</label>
+                <textarea id="notes" name="notes"></textarea>
+
+                <button type="submit">Add Entry</button>
+            </form>
+
+            <p id="weekly-total"></p>
+
+            <div id="practice-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> ANA Violin Studio</p>
+    </footer>
+</body>
+
+</html>
