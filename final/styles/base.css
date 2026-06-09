@@ -99,8 +99,8 @@ nav a:hover {
 }
 
 nav a.active {
-    font-weight: 700;
-    border-bottom: 3px solid var(--accent);
+  font-weight: 700;
+  border-bottom: 3px solid var(--accent);
 }
 
 .hero {
@@ -197,44 +197,90 @@ footer {
   border-top: 1px solid #ddd;
 }
 
-  .hero-box {
-    top: 30%;
-    padding: var(--space-m);
-    width: 90%;
-    margin-bottom: 3rem;
-  }
+.hero-box {
+  top: 30%;
+  padding: var(--space-m);
+  width: 90%;
+  margin-bottom: 3rem;
+}
 
-  body {
-    padding-left: var(--space-m);
-    padding-right: var(--space-m);
-  }
+body {
+  padding-left: var(--space-m);
+  padding-right: var(--space-m);
+}
+
 .about-section {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .about-content {
-    display: grid;
-    gap: 1.5rem;
-    align-items: start;
+  display: grid;
+  gap: 1.5rem;
+  align-items: start;
 }
 
 .about-content img {
-    width: 100%;
-    max-width: 320px;
-    border-radius: 12px;
-    margin: 0 auto;
-    display: block;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
 }
 
 .about-text {
-    max-width: 800px;
+  max-width: 800px;
 }
 
-
+/* Lesson Button to Contact */
+.lesson-button {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.lesson-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 
+.lesson-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
 
+.lesson-button:hover::before {
+  animation: shimmer 0.9s ease;
+}
 
+@keyframes shimmer {
+  from {
+    left: -120%;
+  }
 
+  to {
+    left: 150%;
+  }
+}
+.cts-container{
+  text-align: center;
+  margin: 3rem 0;
 }

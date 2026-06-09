@@ -1,3 +1,7 @@
+import { updateFooter } from "./studio.mjs";
+
+updateFooter();
+
 const yearSpan = document.getElementById("year");
 if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();

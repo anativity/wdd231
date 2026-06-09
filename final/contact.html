@@ -3,36 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Contact ANA Violin Studio to schedule lessons or ask questions about violin instruction.">
     <meta name="author" content="Amanda Adams">
     <title>Contact | ANA Violin Studio</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Contact | ANA Violin Studio">
+    <meta property="og:description"
+        content="Reach out to ANA Violin Studio to inquire about violin lessons, availability, or musical opportunities.">
+    <meta property="og:image" content="https://anativity.github.io/wdd231/final/images/instructor.jpg">
+    <meta property="og:url" content="https://anativity.github.io/wdd231/final/contact.html">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"
-        crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
         rel="stylesheet">
-        <script src="scripts/main.js" defer></script>
+
+    <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body>
     <header>
         <h1>
-            <img src="images/hero.svg" alt="ANA Violin Studio Logo"
-                class="logo">
+            <img src="images/hero.svg" alt="ANA Violin Studio Logo" class="logo">
         </h1>
         <button id="menu-button" aria-label="Menu"></button>
         <nav id="nav-menu">
             <a href="index.html">Home</a>
-            <a href="listen.html">Listen & Explore</a>
-            <a href="basics.html">Violin Basics</a>
-            <a href="lessons.html">Lesson Information</a>
-            <a href="contact.html">Contact</a>
+            <a href="listening-library.html">Listening Library</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
 
@@ -40,8 +46,11 @@
     <main>
         <section>
             <h2 class="page-title">Contact</h2>
-            <p>Send a message to learn more about lessons or
-                availability.</p>
+            <p>
+                Whether you're exploring violin lessons for the first time,
+                returning to music after many years, or seeking opportunities
+                to continue growing as a musician, I'd love to hear from you.
+            </p>
         </section>
 
         <form action="https://formspree.io/f/xjgpnjbw" method="POST">
@@ -59,8 +68,10 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> ANA Violin Studio</p>
+        <p>&copy; <span id="currentyear"></span> ANA Violin Studio</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
+
 </body>
 
 </html>
