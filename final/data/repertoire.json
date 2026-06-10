@@ -1,0 +1,512 @@
+[
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Grieg",
+    "work": "String Quartet No. 1",
+    "performer": "Nordic String Quartet",
+    "videoId": "_tCFpqXi4fo",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Grieg",
+    "work": "Holberg Suite (chamber)",
+    "performer": "Norwegian Chamber Orchestra",
+    "videoId": "xTYF8tXuUuU",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Bach",
+    "work": "Concerto for Two Violins",
+    "performer": "Hilary Hahn & Margaret Batjer",
+    "videoId": "BbJxWcXWeX8",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Dvořák",
+    "work": "American Quartet",
+    "performer": "Emerson String Quartet",
+    "videoId": "BYdZvzxs5o0",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Debussy",
+    "work": "String Quartet",
+    "performer": "Quatuor Ébène",
+    "videoId": "HS8qI80sGcU",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Ravel",
+    "work": "String Quartet",
+    "performer": "Quatuor Ébène",
+    "videoId": "3PBc90s-XQA",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Mendelssohn",
+    "work": "Quartet No. 6",
+    "performer": "Janine Jansen",
+    "videoId": "wokx576v5Y0",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Shostakovich",
+    "work": "Quartet No. 8",
+    "performer": "Borodin Quartet",
+    "videoId": "uGoxfQ2H3ns",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Haydn",
+    "work": "Emperor Quartet",
+    "performer": "Veridis Quartet",
+    "videoId": "mBmCcSz6HWw",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Brahms",
+    "work": "Piano Trio No. 1",
+    "performer": "Beaux Arts Trio",
+    "videoId": "KNHmPmItyS4",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Classical Chamber Works",
+    "composer": "Schubert",
+    "work": "Quintet in C (Adagio)",
+    "performer": "Emerson Quartet + Rostropovich",
+    "videoId": "GIY7jcVQZCg",
+    "style": "Classical Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Modern Chamber Works",
+    "composer": "Vitamin String Quartet",
+    "work": "A Thousand Years",
+    "performer": "Vitamin String Quartet",
+    "videoId": "Zk8pgi6gQLg",
+    "style": "Modern Chamber",
+    "verified": true
+  },
+  {
+    "category": "chamber",
+    "section": "Modern Chamber Works",
+    "composer": "Simply Three",
+    "work": "Believer",
+    "performer": "Simply Three",
+    "videoId": "kL6fN3HNAXo",
+    "style": "Modern Chamber",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Unaccompanied Solo Violin",
+    "composer": "Bach",
+    "work": "Chaconne",
+    "performer": "Hilary Hahn",
+    "videoId": "ngjEVKxQCWs",
+    "style": "Unaccompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Unaccompanied Solo Violin",
+    "composer": "Bach",
+    "work": "Sonata No. 1",
+    "performer": "Hilary Hahn",
+    "videoId": "4iYv_n6MI8g",
+    "style": "Unaccompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Beethoven",
+    "work": "Sonata No. 2",
+    "performer": "James Ehnes",
+    "videoId": "aES0YFYmtSA",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Unaccompanied Solo Violin",
+    "composer": "Paganini",
+    "work": "Caprice No. 24",
+    "performer": "James Ehnes",
+    "videoId": "CBEXHdeKjrM",
+    "style": "Unaccompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Unaccompanied Solo Violin",
+    "composer": "Bacewicz",
+    "work": "Polish Caprice",
+    "performer": "Jennifer Pike",
+    "videoId": "fkbHOF6JyW0",
+    "style": "Unaccompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Debussy",
+    "work": "Clair de Lune (arr. Jared Starr)",
+    "performer": "Jared Starr",
+    "videoId": "3TIMzUOyjWg",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Massenet",
+    "work": "Méditation",
+    "performer": "Anne-Sophie Mutter",
+    "videoId": "zhFcBGQLehw",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Beethoven",
+    "work": "Spring Sonata",
+    "performer": "James Ehnes",
+    "videoId": "dETiw_vPXcQ&",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Mozart",
+    "work": "Sonata K. 304",
+    "performer": "Hilary Hahn",
+    "videoId": "UFGu98-nteE",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Franck",
+    "work": "Violin Sonata",
+    "performer": "James Ehnes",
+    "videoId": "nu7_DqfX0jY",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Debussy",
+    "work": "Violin Sonata",
+    "performer": "James Ehnes",
+    "videoId": "yA_-L8RWlec",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Clara Schumann",
+    "work": "Three Romances",
+    "performer": "Jennifer Pike",
+    "videoId": "kkPgBfzFFMg",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Accompanied Solo Violin",
+    "composer": "Fauré",
+    "work": "Berceuse",
+    "performer": "Christian Ferras",
+    "videoId": "c9_O9xZdjHc",
+    "style": "Accompanied Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Sacred & Devotional Solo Violin",
+    "composer": "Jenny Oaks Baker",
+    "work": "Come Thou Fount",
+    "performer": "Jenny Oaks Baker",
+    "videoId": "7oFTmoD4UOA",
+    "style": "Sacred & Devotional Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Sacred & Devotional Solo Violin",
+    "composer": "Jenny Oaks Baker",
+    "work": "Nearer, My God, To Thee",
+    "performer": "Jenny Oaks Baker",
+    "videoId": "VgSXHrEDsgg",
+    "style": "Sacred & Devotional Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Modern, Film & Crossover Solo Violin",
+    "composer": "Lindsey Stirling",
+    "work": "Phantom of the Opera",
+    "performer": "Lindsey Stirling",
+    "videoId": "TCL94-MsxYc",
+    "style": "Modern, Film & Crossover Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Modern, Film & Crossover Solo Violin",
+    "composer": "Taylor Davis",
+    "work": "Zelda’s Lullaby",
+    "performer": "Taylor Davis",
+    "videoId": "qsODvCr5Uwk",
+    "style": "Modern, Film & Crossover Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Modern, Film & Crossover Solo Violin",
+    "composer": "John Legend",
+    "work": "All of Me",
+    "performer": "Daniel Jang",
+    "videoId": "YpYQh7eQULc",
+    "style": "Modern, Film & Crossover Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Modern, Film & Crossover Solo Violin",
+    "composer": "The Piano Guys",
+    "work": "Let It Go / Vivaldi Winter",
+    "performer": "The Piano Guys",
+    "videoId": "6Dakd7EIgBE",
+    "style": "Modern, Film & Crossover Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "solo",
+    "section": "Modern, Film & Crossover Solo Violin",
+    "composer": "Black Violin",
+    "work": "Stereotypes",
+    "performer": "Black Violin",
+    "videoId": "WYerKidQGcc",
+    "style": "Modern, Film & Crossover Solo Violin",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Tchaikovsky",
+    "work": "Symphony No. 6",
+    "performer": "Bernstein / New York Philharmonic",
+    "videoId": "o147jpVKFCI",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Dvořák",
+    "work": "New World Symphony",
+    "performer": "Czech Philharmonic",
+    "videoId": "05wl6v_JNrc",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Elgar",
+    "work": "Nimrod",
+    "performer": "London Symphony / Colin Davis",
+    "videoId": "Nz8p9mOLr8U",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Tchaikovsky",
+    "work": "Swan Lake",
+    "performer": "Gergiev / Mariinsky",
+    "videoId": "l1XO9MYYG-Q",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Saint-Saëns",
+    "work": "Danse Macabre",
+    "performer": "WDR FunkhausOrchester",
+    "videoId": "ZDWMoJz8OYU",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Symphonic Works",
+    "composer": "Mahler",
+    "work": "Symphony No. 2",
+    "performer": "Bernstein / New York Philharmonic",
+    "videoId": "c-u8-p8xDwk",
+    "style": "Symphonic Works",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Barber",
+    "work": "Violin Concerto",
+    "performer": "Gil Shaham",
+    "videoId": "arZzczeU_0c",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Brahms",
+    "work": "Violin Concerto",
+    "performer": "Hilary Hahn",
+    "videoId": "UFl9xuYP5T8",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Tchaikovsky",
+    "work": "Violin Concerto",
+    "performer": "James Ehnes",
+    "videoId": "7lcT2Z-tG2g",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Sibelius",
+    "work": "Violin Concerto",
+    "performer": "James Ehnes",
+    "videoId": "aPXd0Q4q_Fk",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Prokofiev",
+    "work": "Violin Concerto No. 1",
+    "performer": "Hilary Hahn",
+    "videoId": "I8aN6lPxogA",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Korngold",
+    "work": "Violin Concerto",
+    "performer": "James Ehnes",
+    "videoId": "s8d86UZXQDs",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Violin Concertos",
+    "composer": "Glazunov",
+    "work": "Violin Concerto",
+    "performer": "Hilary Hahn",
+    "videoId": "jq8oxIgyp8E",
+    "style": "Violin Concerto",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Orchestral Solos / Features",
+    "composer": "Rimsky-Korsakov",
+    "work": "Scheherazade",
+    "performer": "Gergiev / Mariinsky",
+    "videoId": "5VwfVVzKUwA",
+    "style": "Orchestral Solos / Features",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Orchestral Solos / Features",
+    "composer": "Shostakovich",
+    "work": "Symphony No. 5 (3: Largo)",
+    "performer": "Mravinsky / Leningrad Philharmonic",
+    "videoId": "THPlfILKIeA",
+    "style": "Orchestral Solos / Features",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Orchestral Solos / Features",
+    "composer": "Vivaldi",
+    "work": "Summer",
+    "performer": "Il Giardino Armonico",
+    "videoId": "LP7Bex5SgSA",
+    "style": "Orchestral Solos / Features",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Film & Modern Orchestral",
+    "composer": "John Williams",
+    "work": "Across the Stars",
+    "performer": "Anne-Sophie Mutter",
+    "videoId": "fEnY9GxdXqQ",
+    "style": "Film & Modern Orchestral",
+    "verified": true
+  },
+  {
+    "category": "symphonic",
+    "section": "Sacred & Inspirational Orchestral",
+    "composer": "Millennial Choirs & Orchestras",
+    "work": "Amazing Grace",
+    "performer": "MCO",
+    "videoId": "v7AL7LajZ90",
+    "style": "Sacred & Inspirational Orchestral",
+    "verified": true
+  }
+]

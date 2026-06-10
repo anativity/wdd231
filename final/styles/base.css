@@ -280,7 +280,113 @@ body {
     left: 150%;
   }
 }
-.cta-container{
+
+.cta-container {
   text-align: center;
   margin: 3rem 0;
+}
+
+/* Listening Library Accordian */
+
+.library-accordion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.accordion-button,
+.details-button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.accordion-button:hover,
+.accordion-button.active,
+.details-button:hover {
+  background-color: var(--accent);
+  color: var(--text);
+}
+
+.library-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.repertoire-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.repertoire-card h4 {
+  color: var(--primary);
+}
+
+#piece-dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+}
+
+#close-dialog {
+  float: right;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.error-message {
+  text-align: center;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+#piece-dialog {
+  width: min(90%, 650px);
+  max-height: 90vh;
+  border: none;
+  border-radius: 16px;
+  padding: 2rem;
+  background-color: white;
+  color: var(--text);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  position: fixed;
+  inset: 0;
+  margin: auto;
+}
+
+#piece-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#close-dialog {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  border: none;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#dialog-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 12px;
+  margin-top: 1rem;
 }
