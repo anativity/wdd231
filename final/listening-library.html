@@ -3,26 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
     <title>Listen & Explore | ANA Violin Studio</title>
 
     <meta name="description"
         content="Explore chamber, solo, and symphonic violin repertoire through ANA Violin Studio's Listening Library.">
     <meta name="author" content="Amanda Adams">
-    <meta property="og:title" content="Listening Library | ANA Violin Studio">
+    <meta property="og:title"
+        content="Listening Library | ANA Violin Studio">
     <meta property="og:description"
         content="Discover curated violin repertoire designed to inspire developing musicians.">
-    <meta property="og:image" content="https://anativity.github.io/wdd231/final/images/hero.svg">
-    <meta property="og:url" content="https://anativity.github.io/wdd231/final/listening-library.html">
+    <meta property="og:image"
+        content="https://anativity.github.io/wdd231/final/images/hero.svg">
+    <meta property="og:url"
+        content="https://anativity.github.io/wdd231/final/listening-library.html">
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
         rel="stylesheet">
 
     <script type="module" src="scripts/main.js"></script>
@@ -34,13 +40,15 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="images/hero.svg" alt="ANA Violin Studio Logo" class="logo">
+            <img src="images/hero.svg" alt="ANA Violin Studio Logo"
+                class="logo">
         </a>
-       
+
         <button id="menu-button" aria-label="Menu"></button>
         <nav id="nav-menu">
             <a href="index.html">Home</a>
-            <a href="listening-library.html" class="active">Listening Library</a>
+            <a href="listening-library.html" class="active">Listening
+                Library</a>
             <a href="lessons.html">Lessons</a>
         </nav>
     </header>
@@ -49,8 +57,10 @@
         <section class="library-intro">
             <h1>Choose a Listening Path</h1>
             <p>
-                Select a category below to explore curated repertoire. Each section
-                includes performances chosen to help students develop listening awareness,
+                Select a category below to explore curated repertoire.
+                Each section
+                includes performances chosen to help students develop
+                listening awareness,
                 musical style, and inspiration for practice.
             </p>
         </section>
@@ -64,7 +74,8 @@
                 Solo Works
             </button>
 
-            <button class="accordion-button" data-category="symphonic">
+            <button class="accordion-button"
+                data-category="symphonic">
                 Symphonic Works
             </button>
         </section>
@@ -74,14 +85,14 @@
         <div id="library-cards" class="library-grid"></div>
 
         <dialog id="piece-dialog">
-            <button id="close-dialog" aria-label="Close dialog">×</button>
+            <div id="dialog-video"></div>
 
-            <h2 id="dialog-title"></h2>
+            <h3 id="dialog-title"></h3>
             <p id="dialog-composer"></p>
             <p id="dialog-performer"></p>
             <p id="dialog-style"></p>
 
-            <div id="dialog-video"></div>
+            <button id="close-dialog" type="button">Close</button>
         </dialog>
 
     </main>
