@@ -126,8 +126,10 @@ nav a.active {
   padding: var(--space-l);
   text-align: center;
   border-radius: 8px;
-  width: 80%;
   max-width: 400px;
+  top: 30%;
+  width: 90%;
+  margin-bottom: 3rem;
 }
 
 .hero-box h2 {
@@ -199,12 +201,7 @@ footer {
   border-top: 1px solid #ddd;
 }
 
-.hero-box {
-  top: 30%;
-  padding: var(--space-m);
-  width: 90%;
-  margin-bottom: 3rem;
-}
+
 .about-section {
   padding: 2rem 1rem;
 }
@@ -254,12 +251,10 @@ footer {
   left: -120%;
   width: 60%;
   height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.45),
-    transparent
-  );
+  background: linear-gradient(120deg,
+      transparent,
+      rgba(255, 255, 255, 0.45),
+      transparent);
   transform: skewX(-25deg);
 }
 
@@ -325,21 +320,6 @@ footer {
   color: var(--primary);
 }
 
-#piece-dialog {
-  border: none;
-  border-radius: 12px;
-  padding: 2rem;
-  max-width: 500px;
-}
-
-#close-dialog {
-  float: right;
-  border: none;
-  background: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
 .error-message {
   text-align: center;
   font-weight: 600;
@@ -358,6 +338,7 @@ footer {
   position: fixed;
   inset: 0;
   margin: auto;
+  max-width: 500px;
 }
 
 #piece-dialog::backdrop {
@@ -368,15 +349,16 @@ footer {
   position: absolute;
   top: 0.75rem;
   right: 1rem;
-  border: none;
   background: var(--primary);
   color: white;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
-  font-size: 1.25rem;
   line-height: 1;
   cursor: pointer;
+  float: right;
+  border: none;
+  font-size: 1.5rem;
 }
 
 #dialog-video iframe {
