@@ -24,6 +24,8 @@ body {
   background: var(--base-bg);
   color: var(--text);
   line-height: 1.6;
+  padding-left: var(--space-m);
+  padding-right: var(--space-m);
 }
 
 img {
@@ -203,12 +205,6 @@ footer {
   width: 90%;
   margin-bottom: 3rem;
 }
-
-body {
-  padding-left: var(--space-m);
-  padding-right: var(--space-m);
-}
-
 .about-section {
   padding: 2rem 1rem;
 }
