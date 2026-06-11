@@ -87,7 +87,9 @@ async function loadRepertoire() {
 
 function setupCategoryButtons() {
     accordionButtons.forEach(button => {
-        button.addEventListener("click", () => {
+        button.addEventListener("click", event => {
+            event.preventDefault();
+
             const category = button.dataset.category;
 
             localStorage.setItem("selectedCategory", category);
@@ -131,24 +133,24 @@ function displayCards(items) {
         card.classList.add("repertoire-card");
 
         card.innerHTML = `
-      <img src="${thumbnail}" alt="${youtubeTitle}" loading="lazy">
-      <div class="repertoire-card-content">
-        <h3>${piece.work}</h3>
-        <p><strong>Composer:</strong> ${piece.composer}</p>
-        <p><strong>Performer:</strong> ${piece.performer}</p>
-        <p><strong>Style:</strong> ${piece.style}</p>
-        <button class="details-button" type="button">
-          View Details
-        </button>
-      </div>
-    `;
+            <img src="${thumbnail}" alt="${youtubeTitle}" loading="lazy">
+            <div class="repertoire-card-content">
+                <h3>${piece.work}</h3>
+                <p><strong>Composer:</strong> ${piece.composer}</p>
+                <p><strong>Performer:</strong> ${piece.performer}</p>
+                <p><strong>Style:</strong> ${piece.style}</p>
+                <button class="details-button" type="button">
+                    View Details
+                </button>
+            </div>
+        `;
 
         const detailsButton = card.querySelector(".details-button");
 
         detailsButton.addEventListener("click", event => {
             event.preventDefault();
             event.stopPropagation();
-            openDialog(piece);
+            openDialog(piece, video);
         });
 
         libraryCards.appendChild(card);
@@ -156,7 +158,10 @@ function displayCards(items) {
 }
 
 function openDialog(piece, video) {
-    if (!dialog) return;
+    if (!dialog) {
+        console.error("Dialog element not found.");
+        return;
+    }
 
     const youtubeTitle = video?.snippet?.title || `${piece.composer} – ${piece.work}`;
 
@@ -166,21 +171,24 @@ function openDialog(piece, video) {
     dialogStyle.innerHTML = `<strong>Style:</strong> ${piece.style}`;
 
     dialogVideo.innerHTML = `
-    <iframe
-      src="https://www.youtube.com/embed/${piece.videoId}"
-      title="${youtubeTitle}"
-      allowfullscreen>
-    </iframe>
-  `;
+        <iframe
+            src="https://www.youtube.com/embed/${piece.videoId}"
+            title="${youtubeTitle}"
+            allowfullscreen>
+        </iframe>
+    `;
 
     dialog.showModal();
 }
 
-detailsButton.addEventListener("click", event => {
-    event.preventDefault();
-    event.stopPropagation();
-    openDialog(piece);
-});
+if (closeDialog) {
+    closeDialog.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopPropagation();
+
+        dialog.close();
+        dialogVideo.innerHTML = "";
+    });
 }
 
 function getCategoryTitle(category) {

@@ -307,6 +307,10 @@ footer {
 .library-grid {
   display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .repertoire-card {
@@ -347,18 +351,24 @@ footer {
 
 #close-dialog {
   position: absolute;
-  top: 0.75rem;
+  top: .5rem;
   right: 1rem;
   background: var(--primary);
   color: white;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 2.25rem;
+  height: 2.25rem;
   line-height: 1;
   cursor: pointer;
   float: right;
   border: none;
   font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+#close-dialog:hover {
+  background-color: var(--secondary);
 }
 
 #dialog-video iframe {
